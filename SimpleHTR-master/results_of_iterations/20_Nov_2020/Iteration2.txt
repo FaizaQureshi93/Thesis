@@ -1,0 +1,61 @@
+
+
+
+Iteration with single paragraph corpus dictionary
+
+Parameters
+same as before except TFWordBeam.so file is also included to use word beam dictionary 
+
+
+
+Results
+
+*    :  wrong predictions
+**   :  slight variance in predictions
+
+
+Error  = 0% 		or		040
+
+
+SrNo				Orignal				Predicted
+0					Sir					Sir
+1					Roy's				Roy's					
+2					united				United
+3					Federal				Federal
+4					Party				Party
+5					Is						is
+6					boycotting			boycotting
+7					the					the
+8					london				London
+9					talks					talks
+10				on					on
+11				the					the
+12				Protectorate's	Protectorate **
+13										"               (the image is pretty much distorted, not including in result)
+14				Future				future
+15				said					said 
+16				Mr .					Mr . 
+17				Nkumbula			Nkumbula
+18				last					last
+19				night					night
+20				" We					We
+21				want					want
+22				to						to
+23				discuss				discuss
+24				what					what
+25				to						to
+26				do					do
+27				if						if
+28				the					the
+29				British				British
+30				Government		Government
+31				gives				gives
+32				into					in-to **
+33				demonstrations	demonstrations
+34				Sir					Sir
+35				Roy					Roy
+36				and					and
+37				talks					talks
+38				Fall					fall
+39				through				through
+40				There				There 
